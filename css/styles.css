@@ -1,0 +1,105 @@
+body {
+    background-color: antiquewhite;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+
+    text-align: center;
+}
+
+.container {
+
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+
+ul {
+
+    list-style-type: none;
+    overflow: hidden;
+    background-color: white;
+    display: block;
+    flex-wrap: wrap;
+}
+
+
+li {
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: #F37748;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    padding: 50px;
+}
+
+span {
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    justify-content: space-between;
+
+
+
+}
+
+
+table {
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+
+}
+
+
+th,
+td {
+    text-align: center;
+    border: 1px solid brown;
+    background-color: #fff;
+    box-sizing: border-box;
+    justify-content: space-between;
+    table-layout: fixed;
+
+
+}
+
+
+
+footer {
+    background-color: goldenrod;
+    text-align: center;
+}
+
+.contacts {
+    display: inline-block;
+}
+
+form {
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #ccc;
+}
+
+form label {
+    width: 72px;
+    font-weight: bold;
+    display: inline-block;
+}
